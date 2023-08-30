@@ -38,7 +38,7 @@ function DetailsPage({toggleDarkMode}) {
   return (
     <>
       <Header toggleDarkMode={toggleDarkMode} />
-      <main className="dark:bg-[#202d36] min-h-[calc(100vh-68px)]">
+      <main className="dark:bg-[#202d36] min-h-[calc(100dvh-68px)]">
         <div className="max-w-[1320px] mx-auto py-12 px-5">
           <Link to={'/'} className="dark:bg-[#2b3743] dark:text-white inline-flex gap-1 items-center px-6 py-2 shadow-[0_0_10px_rgb(0,0,0,0.2)] text-sm font-Nunito font-semibold rounded-md leading-none">
             <ArrowLongLeftIcon className="w-5 stroke-1" />
