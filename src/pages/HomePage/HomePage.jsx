@@ -113,7 +113,7 @@ function HomePage({toggleDarkMode}) {
     <>
       <Header toggleDarkMode={toggleDarkMode}/>
       <main className="dark:bg-[#202d36] min-h-[calc(100vh-68px)]">
-        <div className="max-w-[1320px] mx-auto py-12 px-5">
+        <div className="max-w-[1320px] mx-auto py-12 px-5 dark:text-white">
           <div className="flex justify-between flex-wrap mb-12 gap-6">
             <label className="relative block max-w-md w-full">
               <span className="absolute inset-y-0 left-0 flex items-center pl-6">
